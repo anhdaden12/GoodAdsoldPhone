@@ -21,7 +21,7 @@ class CustomTableViewCell: UITableViewCell {
     }
     override func awakeFromNib() {
         super.awakeFromNib()
-
+        
       
     }
     
@@ -30,16 +30,15 @@ class CustomTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        
     }
     
     
     override func layoutSubviews() {
         super.layoutSubviews()
-       
-        imageView?.layer.masksToBounds = true
-              self.imageview.layer.cornerRadius = CGFloat(roundf(Float(self.imageview.frame.size.width / 2.0)))
-        
+     
+        self.imageView?.layer.masksToBounds = true
+        self.imageview.layer.cornerRadius = self.imageview.frame.size.width / 2.0
+        self.layoutIfNeeded()
     }
 
 }
