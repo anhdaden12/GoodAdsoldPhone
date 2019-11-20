@@ -14,11 +14,6 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var lblName: UILabel!
     
     
-    override var bounds: CGRect {
-        didSet {
-            self.layoutIfNeeded()
-        }
-    }
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -36,9 +31,6 @@ class CustomTableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
      
-        self.imageView?.layer.masksToBounds = true
-        self.imageview.layer.cornerRadius = self.imageview.frame.size.width / 2.0
-        self.layoutIfNeeded()
     }
 
 }

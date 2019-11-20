@@ -78,6 +78,8 @@ class TableViewController: UITableViewController, UISearchResultsUpdating {
         let datA = disPlayData?[indexPath.row]
         cell.lblName.text = datA?.name
         cell.imageview.image = UIImage(named: datA?.imageName ?? "1")
+        cell.imageview?.clipsToBounds = true
+        cell.imageview.layer.cornerRadius = 48
         return cell
         
     }
