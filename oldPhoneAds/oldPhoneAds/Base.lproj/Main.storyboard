@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06o-e2-LgM">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="06o-e2-LgM">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Oyk-ap-YHM">
@@ -25,48 +25,48 @@
                                         </constraints>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="umT-1r-DTC">
-                                        <rect key="frame" x="0.0" y="220" width="414" height="754.5"/>
+                                        <rect key="frame" x="0.0" y="220" width="414" height="4340"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1C-rd-OKX">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="30.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="542.5"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zU2-MA-hEX">
-                                                <rect key="frame" x="0.0" y="30.5" width="414" height="139.5"/>
+                                                <rect key="frame" x="0.0" y="542.5" width="414" height="418"/>
                                                 <string key="text">Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. It is considered one of the Big Four tech companies along with Amazon, Google, and Facebook.</string>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="306-QC-Iqy">
-                                                <rect key="frame" x="0.0" y="170" width="414" height="418"/>
+                                                <rect key="frame" x="0.0" y="960.5" width="414" height="418"/>
                                                 <string key="text">As the Store Manager, you will supervise the operational and organizational standards of the store. Your duties will include undertaking administrative tasks, monitoring inventory levels, and developing business strategies. As the Store Manager, you will supervise the operational and organizational standards of the store. Your duties will include undertaking administrative tasks, monitoring inventory levels, and developing business strategies. As the Store Manager, you will supervise the operational and organizational standards of the store. Your duties will include undertaking administrative tasks, monitoring inventory levels, and developing business strategies. As the Store Manager, you will supervise the operational and organizational standards of the store. Your duties will include undertaking administrative tasks, monitoring inventory levels, and developing business strategies.</string>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3Y-Vc-J4a">
-                                                <rect key="frame" x="0.0" y="588" width="414" height="30.5"/>
+                                                <rect key="frame" x="0.0" y="1378.5" width="414" height="542.5"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mqq-dy-lVm">
-                                                <rect key="frame" x="0.0" y="618.5" width="414" height="136"/>
+                                                <rect key="frame" x="0.0" y="1921" width="414" height="2419"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="RNZ-JQ-iCL">
-                                                        <rect key="frame" x="73.5" y="0.0" width="267" height="32"/>
+                                                        <rect key="frame" x="73.5" y="0.0" width="267" height="793"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="Hd6-fV-eku">
-                                                                <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                                                <rect key="frame" x="0.0" y="380.5" width="32" height="32"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="Hd6-fV-eku" secondAttribute="height" id="S0D-3e-i7v"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ngocbaongo.qn@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GR5-a3-t5f">
-                                                                <rect key="frame" x="62" y="6.5" width="205" height="19.5"/>
+                                                                <rect key="frame" x="62" y="387" width="205" height="19.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -74,16 +74,16 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="G7u-Es-KW4">
-                                                        <rect key="frame" x="73.5" y="52" width="267" height="32"/>
+                                                        <rect key="frame" x="73.5" y="813" width="267" height="793"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone" translatesAutoresizingMaskIntoConstraints="NO" id="hcW-8S-wqE">
-                                                                <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                                                <rect key="frame" x="0.0" y="380.5" width="32" height="32"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="hcW-8S-wqE" secondAttribute="height" id="dX0-rU-EzK"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+84822566133" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3S-RG-P7T">
-                                                                <rect key="frame" x="62" y="6" width="205" height="20.5"/>
+                                                                <rect key="frame" x="62" y="386.5" width="205" height="20.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -91,16 +91,16 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="BNH-SD-F1H">
-                                                        <rect key="frame" x="73.5" y="104" width="267" height="32"/>
+                                                        <rect key="frame" x="73.5" y="1626" width="267" height="793"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="web" translatesAutoresizingMaskIntoConstraints="NO" id="XLz-Oq-Esp">
-                                                                <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                                                <rect key="frame" x="0.0" y="380.5" width="32" height="32"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="XLz-Oq-Esp" secondAttribute="height" id="cdh-Yn-ny5"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.ngobaongoc.qn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gN2-NP-T3t">
-                                                                <rect key="frame" x="62" y="6" width="205" height="20.5"/>
+                                                                <rect key="frame" x="62" y="386.5" width="205" height="20.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -259,14 +259,14 @@
             <objects>
                 <viewController id="9zg-a7-CU9" customClass="phoneDetailController" customModule="oldPhoneAds" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mth-vh-lg2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDO-Rr-bew">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="1329"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="vBf-AG-erR">
-                                        <rect key="frame" x="0.0" y="20" width="414" height="920"/>
+                                        <rect key="frame" x="0.0" y="20" width="414" height="1153"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TjU-hV-LFp">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -288,7 +288,7 @@
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kzb-KU-Whz">
-                                                <rect key="frame" x="0.0" y="173.5" width="414" height="746.5"/>
+                                                <rect key="frame" x="0.0" y="173.5" width="414" height="979.5"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -319,6 +319,7 @@
                         <viewLayoutGuide key="safeArea" id="bQJ-NB-TWA"/>
                     </view>
                     <navigationItem key="navigationItem" id="eaK-ve-gDk"/>
+                    <size key="freeformSize" width="414" height="1500"/>
                     <connections>
                         <outlet property="imagePhoneDetail" destination="kzb-KU-Whz" id="3dm-52-jRY"/>
                         <outlet property="lblPhoneName" destination="TjU-hV-LFp" id="ckA-3J-dfM"/>
